@@ -2,6 +2,7 @@
 
 # Usage: ./create_github_repo.sh <repo-name> [private|public]
 # Example: ./create_github_repo.sh my-new-repo private
+# test branch conflict
 
 REPO_NAME=$1
 VISIBILITY=${2:-public} # default is public
